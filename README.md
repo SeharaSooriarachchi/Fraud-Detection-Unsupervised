@@ -18,7 +18,7 @@ Publicly available Kaggle Dataset:
 
 https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection/data
 
-#Results
+# Results
 After applying unsupervised learning techniques to detect anomalies in transaction data, a set of potential fraud cases was identified based on their deviation from normal transaction patterns. These anomalies were visualized and analyzed using PCA, which showed clear separation from the majority of transactions.
 
 To further validate and refine the detection process, the identified anomalies were labeled as fraudulent, and the remaining transactions were labeled as non-fraudulent. This allowed the use of supervised classification models to learn patterns from these newly labeled instances and improve detection accuracy.
